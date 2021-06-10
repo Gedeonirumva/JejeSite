@@ -1,17 +1,13 @@
- <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+<title>form</title>
+<meta charaset="utf-8">
+</head>
+<h1><b>identification details</b></h1>
+<form><form name="regForm">
+<label>Username: <input type="text" id="username"></label>
+<label>Password: <input type="password" id="pwd"></label>
+<input type="submit" class="login" value="Log In" onclick="validation()" formtarget="_blank">
+</form>
+<html/>
